@@ -17,3 +17,15 @@ script:
 
 after_script:
   - coveralls
+
+
+deploy:
+  provider: elasticbeanstalk
+  edge: true
+  region: us-east-2
+  app: swe1-app
+  env: swe1-env
+  bucket: elasticbeanstalk-us-east-2-469132170006
+  wait_until_deployed: true
+  on:
+    branch: main
