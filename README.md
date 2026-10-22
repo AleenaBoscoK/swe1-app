@@ -26,3 +26,5 @@ python manage.py runserver
 ```
 
 Then open http://127.0.0.1:8000/polls/
+
+Pull requests must pass the Travis CI check before they can be merged into `main`.
