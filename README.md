@@ -1,7 +1,6 @@
 # swe1-app
 
-[![Build Status](https://app.travis-ci.com/AleenaBoscoK/swe1-app.svg?branch=main)](https://app.travis-ci.com/AleenaBoscoK/swe1-app)
-[![Coverage Status](https://coveralls.io/repos/github/AleenaBoscoK/swe1-app/badge.svg?branch=main)](https://coveralls.io/github/AleenaBoscoK/swe1-app?branch=main)
+main: [![Build Status](https://app.travis-ci.com/AleenaBoscoK/swe1-app.svg?branch=main)](https://app.travis-ci.com/AleenaBoscoK/swe1-app) [![Coverage Status](https://coveralls.io/repos/github/AleenaBoscoK/swe1-app/badge.svg)](https://coveralls.io/github/AleenaBoscoK/swe1-app)
 
 A Django polls app built from Parts 1–4 of the official Django tutorial, deployed on AWS Elastic Beanstalk.
 
