@@ -16,7 +16,7 @@ script:
   - coverage run --source=mysite,polls manage.py test
 
 after_script:
-  - coveralls
+  - coveralls --service=travis-pro
 
 
 deploy:
